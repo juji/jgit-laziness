@@ -12,7 +12,7 @@
   },
   "keywords": [
     "git",
-    "lazy-ass-fuck"
+    "lazy-as-fuck"
   ],
   "author": "juji <jujiyangasli@gmail.com> (http://jujiyangasli.com/)",
   "license": "ISC",
@@ -20,7 +20,10 @@
     "url": "https://github.com/juji/jgit-laziness/issues"
   },
   "homepage": "https://github.com/juji/jgit-laziness",
+  "bin": {
+    "jgit": "index.js"
+  },
   "dependencies": {
-    "child-process-promise": "^0.2.0-SNAPSHOT.1389671754086"
+    "shelljs": "^0.3.0"
   }
 }
