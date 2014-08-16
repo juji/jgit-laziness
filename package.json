@@ -1,0 +1,26 @@
+{
+  "name": "jgit-laziness",
+  "version": "0.0.0",
+  "description": "lazy git commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:juji/jgit-laziness.git"
+  },
+  "keywords": [
+    "git",
+    "lazy-ass-fuck"
+  ],
+  "author": "juji <jujiyangasli@gmail.com> (http://jujiyangasli.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juji/jgit-laziness/issues"
+  },
+  "homepage": "https://github.com/juji/jgit-laziness",
+  "dependencies": {
+    "child-process-promise": "^0.2.0-SNAPSHOT.1389671754086"
+  }
+}
