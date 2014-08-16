@@ -1,6 +1,6 @@
 {
   "name": "jgit-laziness",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "lazy git commands",
   "main": "index.js",
   "scripts": {
