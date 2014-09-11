@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/juji/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/juji/.npm/jgit-laziness/0.0.2/package.tgz', '.' ]
+12 verbose tarball /home/juji/.npm/jgit-laziness/0.0.2/package.tgz
+13 verbose folder .
+14 info prepublish jgit-laziness@0.0.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/juji/.npm/1f1177db-tar.lock
+17 silly lockFile 5db43f15--jgit-laziness-0-0-2-package-tgz tar:///home/juji/.npm/jgit-laziness/0.0.2/package.tgz
+18 verbose lock tar:///home/juji/.npm/jgit-laziness/0.0.2/package.tgz /home/juji/.npm/5db43f15--jgit-laziness-0-0-2-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 5db43f15--jgit-laziness-0-0-2-package-tgz tar:///home/juji/.npm/jgit-laziness/0.0.2/package.tgz
+22 silly lockFile 5db43f15--jgit-laziness-0-0-2-package-tgz tar:///home/juji/.npm/jgit-laziness/0.0.2/package.tgz
+23 silly lockFile be56e378--npm-jgit-laziness-0-0-2-package /home/juji/.npm/jgit-laziness/0.0.2/package
+24 verbose lock /home/juji/.npm/jgit-laziness/0.0.2/package /home/juji/.npm/be56e378--npm-jgit-laziness-0-0-2-package.lock
+25 silly lockFile be56e378--npm-jgit-laziness-0-0-2-package /home/juji/.npm/jgit-laziness/0.0.2/package
+26 silly lockFile be56e378--npm-jgit-laziness-0-0-2-package /home/juji/.npm/jgit-laziness/0.0.2/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'jgit-laziness',
+29 silly publish   version: '0.0.2',
+29 silly publish   description: 'lazy git commands',
+29 silly publish   main: 'index.js',
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository: { type: 'git', url: 'git@github.com:juji/jgit-laziness.git' },
+29 silly publish   keywords: [ 'git', 'lazy-as-fuck' ],
+29 silly publish   author:
+29 silly publish    { name: 'juji',
+29 silly publish      email: 'jujiyangasli@gmail.com',
+29 silly publish      url: 'http://jujiyangasli.com/' },
+29 silly publish   license: 'ISC',
+29 silly publish   bugs: { url: 'https://github.com/juji/jgit-laziness/issues' },
+29 silly publish   homepage: 'https://github.com/juji/jgit-laziness',
+29 silly publish   bin: { jgit: 'index.js' },
+29 silly publish   dependencies: { shelljs: '^0.3.0' },
+29 silly publish   readme: '#jgit-laziness\n\nlazy git commands\n\n##install\n```bash\nnpm install -g jgit-laziness\n```\n\n##usage\n\n```bash\njgit commit\njgit commit "commit message"\n\n# will add and commit\n# git add .\n# git commit -a -m "auto-commit"\n```\n\n```bash\njgit push\njgit push "commit message"\n\n# will add, commit, and push\n# git add .\n# git commit -a -m "auto-commit"\n# git push\n```\n\n```bash\njgit files\n\n# will list all files\n# git ls-files\n```\n\n```bash\njgit tracked\n\n# will list all tracked files\n# git ls-tree --full-tree -r HEAD\n```\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '3dc345c257dbb04a55753b8d7c5a6712bfad0749',
+29 silly publish   _id: 'jgit-laziness@0.0.2',
+29 silly publish   _shasum: '4f8b8c22b10effde4f4dca342790a44b98877ddd',
+29 silly publish   _from: '.' }
+30 verbose request where is /jgit-laziness
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id cdae0e4898699a93
+33 verbose url raw /jgit-laziness
+34 verbose url resolving [ 'https://registry.npmjs.org/', './jgit-laziness' ]
+35 verbose url resolved https://registry.npmjs.org/jgit-laziness
+36 verbose request where is https://registry.npmjs.org/jgit-laziness
+37 info trying registry request attempt 1 at 00:35:56
+38 http PUT https://registry.npmjs.org/jgit-laziness
+39 http 403 https://registry.npmjs.org/jgit-laziness
+40 verbose headers { date: 'Thu, 11 Sep 2014 17:36:01 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '3184',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-sn86-SIN',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1410456960.391272,VS0,VE788',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.2
+42 error old={"name":"jgit-laziness","version":"0.0.2","description":"lazy git commands","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@github.com:juji/jgit-laziness.git"},"keywords":["git","lazy-as-fuck"],"author":{"name":"juji","email":"jujiyangasli@gmail.com","url":"http://jujiyangasli.com/"},"license":"ISC","bugs":{"url":"https://github.com/juji/jgit-laziness/issues"},"homepage":"https://github.com/juji/jgit-laziness","bin":{"jgit":"index.js"},"dependencies":{"shelljs":"^0.3.0"},"gitHead":"3dc345c257dbb04a55753b8d7c5a6712bfad0749","_id":"jgit-laziness@0.0.2","_shasum":"4f8b8c22b10effde4f4dca342790a44b98877ddd","_from":".","_npmVersion":"1.4.23","_npmUser":{"name":"jujiyangasli","email":"jujiyangasli@gmail.com"},"maintainers":[{"name":"jujiyangasli","email":"jujiyangasli@gmail.com"}],"dist":{"shasum":"4f8b8c22b10effde4f4dca342790a44b98877ddd","tarball":"http://registry.npmjs.org/jgit-laziness/-/jgit-laziness-0.0.2.tgz"}}
+42 error new={"name":"jgit-laziness","version":"0.0.2","description":"lazy git commands","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@github.com:juji/jgit-laziness.git"},"keywords":["git","lazy-as-fuck"],"author":{"name":"juji","email":"jujiyangasli@gmail.com","url":"http://jujiyangasli.com/"},"license":"ISC","bugs":{"url":"https://github.com/juji/jgit-laziness/issues"},"homepage":"https://github.com/juji/jgit-laziness","bin":{"jgit":"index.js"},"dependencies":{"shelljs":"^0.3.0"},"readme":"#jgit-laziness\u000a\u000alazy git commands\u000a\u000a##install\u000a```bash\u000anpm install -g jgit-laziness\u000a```\u000a\u000a##usage\u000a\u000a```bash\u000ajgit commit\u000ajgit commit \"commit message\"\u000a\u000a# will add and commit\u000a# git add .\u000a# git commit -a -m \"auto-commit\"\u000a```\u000a\u000a```bash\u000ajgit push\u000ajgit push \"commit message\"\u000a\u000a# will add, commit, and push\u000a# git add .\u000a# git commit -a -m \"auto-commit\"\u000a# git push\u000a```\u000a\u000a```bash\u000ajgit files\u000a\u000a# will list all files\u000a# git ls-files\u000a```\u000a\u000a```bash\u000ajgit tracked\u000a\u000a# will list all tracked files\u000a# git ls-tree --full-tree -r HEAD\u000a```\u000a","readmeFilename":"README.md","gitHead":"3dc345c257dbb04a55753b8d7c5a6712bfad0749","_id":"jgit-laziness@0.0.2","_shasum":"4f8b8c22b10effde4f4dca342790a44b98877ddd","_from":".","_npmVersion":"1.4.23","_npmUser":{"name":"jujiyangasli","email":"jujiyangasli@gmail.com"},"maintainers":[{"name":"jujiyangasli","email":"jujiyangasli@gmail.com"}],"dist":{"shasum":"4f8b8c22b10effde4f4dca342790a44b98877ddd","tarball":"http://registry.npmjs.org/jgit-laziness/-/jgit-laziness-0.0.2.tgz"}}: jgit-laziness
+42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 3.13.0-34-generic
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error cwd /media/files/work/repo/jgit
+47 error node -v v0.10.31
+48 error npm -v 1.4.23
+49 verbose exit [ 1, true ]
