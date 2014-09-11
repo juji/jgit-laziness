@@ -119,15 +119,23 @@
 			"file": "modules/push.js",
 			"settings":
 			{
-				"buffer_size": 157,
+				"buffer_size": 80,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "modules/tracked.js",
+			"file": "modules/files.js",
 			"settings":
 			{
-				"buffer_size": 158,
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/commit.js",
+			"settings":
+			{
+				"buffer_size": 182,
 				"line_ending": "Unix"
 			}
 		}
@@ -782,15 +790,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 157,
+						"buffer_size": 80,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								54,
-								54
+								80,
+								80
 							]
 						],
 						"settings":
@@ -806,19 +814,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "modules/tracked.js",
+					"file": "modules/files.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 158,
+						"buffer_size": 140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								140,
+								140
 							]
 						],
 						"settings":
@@ -830,6 +838,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modules/commit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

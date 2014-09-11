@@ -43,7 +43,7 @@ if(process.argv.length<3){
 
 	global.COMMITMSSG = "auto-commit";
 	if(typeof process.argv[3] != 'undefined') global.COMMITMSSG = process.argv[3];
-	require('./modules/init.js');
+	require('./modules/commit.js');
 
 }else if(process.argv[2]=='commit'){
 
