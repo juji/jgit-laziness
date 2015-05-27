@@ -124,10 +124,18 @@
 			}
 		},
 		{
-			"file": "modules/files.js",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 140,
+				"buffer_size": 1789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/juji/migrate-juji",
+			"settings":
+			{
+				"buffer_size": 36231,
 				"line_ending": "Unix"
 			}
 		},
@@ -141,9 +149,14 @@
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 181.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -382,8 +395,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/media/files/work/repo/jgit"
+	],
 	"file_history":
 	[
+		"/media/files/work/sketchbook/grepsed/Untitled Document (4th copy)",
+		"/media/files/work/sketchbook/grepsed/Untitled Document (3rd copy)",
+		"/media/files/work/sketchbook/grepsed/Untitled Document",
 		"/media/yagitudeh/WORK/npm/jgit/README.md",
 		"/media/yagitudeh/WORK/npm/jgit/package.json",
 		"/media/yagitudeh/WORK/npm/jgit/asdf",
@@ -508,10 +528,7 @@
 		"/media/yagitudeh/WORK/www/enet/app/component/right-menu.php",
 		"/media/yagitudeh/WORK/www/enet/app/component/closing.php",
 		"/media/yagitudeh/WORK/www/enet/app/component/header.php",
-		"/media/yagitudeh/WORK/www/enet/app/component/left-menu.php",
-		"/media/yagitudeh/WORK/www/enet/app/classes/Enet.php",
-		"/media/yagitudeh/WORK/www/enet/app/classes/DB.php",
-		"/media/yagitudeh/WORK/www/enet/app/classes/Data.php"
+		"/media/yagitudeh/WORK/www/enet/app/component/left-menu.php"
 	],
 	"find":
 	{
@@ -781,7 +798,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -809,39 +826,68 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "modules/files.js",
+					"file": "index.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 1789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
+								1233,
+								1233
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/juji/migrate-juji",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35512,
+								35512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4845.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "modules/commit.js",
 					"semi_transient": false,
 					"settings":
@@ -865,7 +911,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -910,6 +956,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "jgit.sublime-project",
 	"replace":
 	{
@@ -919,6 +966,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -955,6 +1003,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -963,11 +1012,13 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
